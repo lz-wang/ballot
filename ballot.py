@@ -8,6 +8,6 @@ from window import BallotWindow
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = BallotWindow()
-    app.setStyleSheet(qdarktheme.load_stylesheet('dark'))
+    app.setStyleSheet(qdarktheme.load_stylesheet('light'))
     window.show()
     sys.exit(app.exec())
